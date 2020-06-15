@@ -46,7 +46,7 @@ console.log("Hello! I can run JS through my Web browser");
 
 
 
-// _______________________________________________________________________
+// _______________________________________________________________________________________________________________________________________________________
 
 
 
@@ -121,14 +121,15 @@ alert("I am" + age + "years old");
 
 
 //°°° Q # 02 °°°
-//.....
+var n = 14;
+alert("You have visited this site  "+n+" times");  
 //     <_____________________>
 
 
 //°°° Q # 03 °°°
 var birthYear = 2004;
-document.write("My birth year is " + birthYear , "<br>");
-document.write("Data type of my declared variable iz number", "<br>");
+document.write("My birth year is " + birthYear + "<br>");
+document.write("Data type of my declared variable iz number"+ "<br>");
 //     <_____________________>
 
 
@@ -137,7 +138,7 @@ var name = " John Doe ";
 var name2 = name.bold();
 var products = "5 T-shirt(s)";
 var product2 = product.bold();
-document.write(name2 + " ordere " + product2 + "on XYZ Clothing Store. " , "<br>" );
+document.write(name2 + " ordere " + product2 + "on XYZ Clothing Store. " + "<br>" );
 //     <_____________________>
 
 
@@ -149,8 +150,8 @@ document.write(name2 + " ordere " + product2 + "on XYZ Clothing Store. " , "<br>
 //<<<<<<<<<<•' LEAGL AND ILLEGAL VARIABLES '•>>>>>>>>>>>>
 
 
-//°°° Q # 01 °°°
-// ...
+//°°° Q # 01 °°
+var name="Marry" ,age=" 16 ", feMale = true; 
 
 //     <_____________________>
 
@@ -159,6 +160,7 @@ document.write(name2 + " ordere " + product2 + "on XYZ Clothing Store. " , "<br>
 //legal variables
 var helloWorld;
 var hello_World;
+var helloworld1002;
 var _hello_World;
 var hello_World;
 var $hello_World;
@@ -167,17 +169,17 @@ var $hello_World;
 // var /helloworld;
 // var hello-World;
 // var &helloworld;
-// var helloworld@123;
+// var 1hdllo;
 // var hello world;
 //     <_____________________>
 
 
 //°°° Q # 03 °°°
-document.write("Rules for naming JS variables " .fontsize(30));
+document.write("Rules for naming JS variables "  .fontsize(30));
 document.write("Variable names can only contain , numbers, $ and _ . For Example : $my_1stVariable ","<br>");
 document.write("Variable must begin with a letter, $ or _.For example : $name, _name or name" , "<br>");
-document.write("Variable names are case sensitive ", "<br>");
-document.write("Variable names should not be JS keywords", "<br>");
+document.write("Variable names are case sensitive "+ "<br>");
+document.write("Variable names should not be JS keywords"+ "<br>");
 
 
 // _______________________________________________________________________
@@ -191,19 +193,19 @@ document.write("Variable names should not be JS keywords", "<br>");
 var num1 = 2;
 var num2 = 2;
 var plus = num1 + num2;
-document.write("Sum of " + num1 + " and " + num2 + " is " + plus, "<br>");
+document.write("Sum of " + num1 + " and " + num2 + " is " + plus+ "<br>");
 //     <_____________________>
 
 
 //°°° Q # 02 °°°
 var minus = num1 - num2;
-document.write(" subtraction of " + num1 + " and " + num2 + " is " + minus, "<br>" )
+document.write(" subtraction of " + num1 + " and " + num2 + " is " + minus+ "<br>" )
 var multiply = num1 * num2;
-document.write(" multiplication of " + num1 + " and " + num2 + " is " + multiply, "<br>" )
+document.write(" multiplication of " + num1 + " and " + num2 + " is " + multiply+ "<br>" )
 var remainder = num1 % num2;
-document.write(" remainder of " + num1 + " and " + num2 + " is " + remainder, "<br>" );
+document.write(" remainder of " + num1 + " and " + num2 + " is " + remainder+ "<br>" );
 var divide = num1 / num2;
-document.write(" divison of " + num1 + " and " + num2 + " is " + divide, "<br>" );
+document.write(" divison of " + num1 + " and " + num2 + " is " + divide+ "<br>" );
 //     <_____________________>
 
 
@@ -215,23 +217,23 @@ document.write("value after declaration is " + num + "<br>" );
 //c. 
 num = 5;
 //d.
-document.write("Initial value : " + num , "<br>");
+document.write("Initial value : " + num + "<br>");
 //e.
 num++
 //f. 
-document.write("value after increment is : " + num, "<br>");
+document.write("value after increment is : " + num+ "<br>");
 //g.
 num = num + 7;
 //h.
-document.write("vakue after sum is " + value , "<br>");
+document.write("vakue after sum is " + value + "<br>");
 //i.
 --num;
 //j.
-document.write("value after decrement is : " + num, "<br>");
+document.write("value after decrement is : " + num+ "<br>");
 //k. 
 value = value % 3;
 //l.
-document.write("The remainder is : " + num, "<br>");
+document.write("The remainder is : " + num+ "<br>");
 //     <_____________________>
 
 
@@ -239,7 +241,7 @@ document.write("The remainder is : " + num, "<br>");
 var ticket1 = 600;
 quantity = 5;
 var ticket5 = ticket1 * 5;
-document.write("Total cost to buy " + quantity + " tickets to a movie is " + ticket5 + "PKR" , "<br>");
+document.write("Total cost to buy " + quantity + " tickets to a movie is " + ticket5 + "PKR" + "<br>");
 
 
 //°°° Q # 05 °°°
@@ -268,38 +270,38 @@ document.write(tempInCelcius + " is  = " + Celcius , "<br>" , tempInFarenheit + 
 
  
 //°°° Q # 07 °°°
-document.write(" SHOPPING CART " .fontsize(30) , "<br>");
+document.write(" SHOPPING CART " .fontsize(30) + "<br>");
 var price1 = 650;
 var quantity1 = 3;
 var price2 = 100;
 var quantity2 = 7;
 var shippingCharges = 100;
 var calculation = price1*quantity1  + price2*quantity2 + shippingCharges;
-document.write(" Price of item 1 is " + price1 , "<br>");
-document.write(" Quantity of item 1 is " + quantity1 , "<br>");
-document.write(" Price of item 2 is " + price2 , "<br>");
-document.write(" Quantity of item 2 is " + quantity2 , "<br>");
-document.write(" Total bill of your order is" + calculation , "<br>");
+document.write(" Price of item 1 is " + price1 + "<br>");
+document.write(" Quantity of item 1 is " + quantity1 + "<br>");
+document.write(" Price of item 2 is " + price2 + "<br>");
+document.write(" Quantity of item 2 is " + quantity2 + "<br>");
+document.write(" Total bill of your order is" + calculation + "<br>");
 //     <_____________________>
 
 
 //°°° Q # 08 °°°
-document.write("MARK SHEET" .fontsize(30) , "<br>");
+document.write("MARK SHEET" .fontsize(30) + "<br>");
 var total = 980;
-document.write("Total Marks: " + total, "<br>");
+document.write("Total Marks: " + total+ "<br>");
 var marks = 804;
-document.write("Marks Obtained " + marks, "<br>");
+document.write("Marks Obtained " + marks+ "<br>");
 var percentage = marks/total*100;
-document.write("Percentage " + percentage, "<br>");
+document.write("Percentage " + percentage+ "<br>");
 //     <_____________________>
 
 
 //°°° Q # 09 °°°
-document.write("CURRENCY IN (PKR)" .fontsize(30) , "<br>");
+document.write("CURRENCY IN (PKR)" .fontsize(30) + "<br>");
 dollarCurrency = 10;
 riyalCurrency = 25;
 currencyInPKR = 10*104.8 + 25*28;
-document.write("Total currency in PKR is : " + currencyInPKR, "<br>");
+document.write("Total currency in PKR is : " + currencyInPKR+ "<br>");
 //     <_____________________>
 
 
@@ -310,37 +312,37 @@ document.write((someNumber + 5 * 10) / 2);
 
 
 //°°° Q # 11 °°°
-document.write("AGE ÇALCULATOR" .fontsize(30) , "<br>");
+document.write("AGE ÇALCULATOR" .fontsize(30) + "<br>");
 var currentYear = 2020;
 var birthYear = 2004;
 var age = currentYear - birthYear;
-document.write("Current year : " + currentYear, "<br>");
-document.write("Current year : " + currentYear, "<br>");
+document.write("Current year : " + currentYear+ "<br>");
+document.write("Current year : " + currentYear+ "<br>");
 document.write("Your age is : " + age, "<br>");
 
 //°°° Q # 12 °°°
-document.write("The Geometrizer" .fontsize(30) , "<br>");
+document.write("The Geometrizer" .fontsize(30) + "<br>");
 var radius = 20;
 circumference = 2*3.142*radius;
 area = 3.142*20*radius;
-document.write("Radius of a circle is : " + radius, "<br>");
-document.write("Circumference is : " + circumference, "<br>");
+document.write("Radius of a circle is : " + radius+ "<br>");
+document.write("Circumference is : " + circumference+ "<br>");
 document.write("Area is : " + area, "<br>");
 //     <_____________________>
 
 
 //°°° Q # 13 °°°
-document.write("THE LIFETIME SUPPLY CALCULATOR" .fontsize(30) , "<br>");
+document.write("THE LIFETIME SUPPLY CALCULATOR" .fontsize(30) + "<br>");
 var snacks = lays;
 var currentAge = 16;
 var maximumAge = 60;
 snacksPerDay = 2;
 total = maximumAge - currentAge*365*snacksPerDay;
-document.write("Favourite Snacks = " + snacks , "<br>");
-document.write("Current age = " + currentAge, "<br>");
-document.write("Estimated age= " + maximumAge, "<br>");
-document.write("Amount of snacks per day is : " + snacksPerDay, "<br>");
-document.write(" You will need " + total + " lays to last you until the rip old age of " + maximumAge  , "<br>" );
+document.write("Favourite Snacks = " + snacks + "<br>");
+document.write("Current age = " + currentAge+ "<br>");
+document.write("Estimated age= " + maximumAge+ "<br>");
+document.write("Amount of snacks per day is : " + snacksPerDay+ "<br>");
+document.write(" You will need " + total + " lays to last you until the rip old age of " + maximumAge  + "<br>" );
 
 
 // _______________________________________________________________________
@@ -349,7 +351,7 @@ document.write(" You will need " + total + " lays to last you until the rip old 
 //<<<<<<<<<<•' MATH EXPRESSION '•>>>>>>>>>>>>
 
 //°°° Q # 1 °°°
-document.write("Results:" , "<br>");
+document.write("Results:" + "<br>");
 var a = 10;
 document.write("The value of a is :" + a + "<br>");
 ++a;
@@ -368,7 +370,7 @@ document.write("Now the value of a is " + a + "<br>");
 //     <_____________________>
 
 
-//°°° Q # 2 °°°
+//°°° Q # 2 °°°   
 var a = 2;
 var b = 1;
 --a;                      // a is 1
@@ -404,11 +406,11 @@ document.write(userTable * 10 +  " = " + userTable*10 );
 //°°° Q # 6 °°°
 
 var subject1 = prompt("your subject");
-document.write("1.", subject1 , "<br>")
+document.write("1.", subject1 + "<br>")
 var subject2 = prompt("your subject");
-document.write("2. ",subject2, "<br>")
+document.write("2. ",subject2 + "<br>")
 var subject3 = prompt("your subject");
-document.write("3.",subject3 , "<br>")
+document.write("3.",subject3 + "<br>")
 var totalnumber = 100;
 var MarksIn1stSubject = +prompt("Marks obtained in 1st subject");
 var MarksIn2ndSubject = +prompt("Marks obtained in 2st subject");
@@ -538,31 +540,31 @@ if (c++ === 13){
 
 
 //°°° Q # 6 °°°
-document.write("MARK SHEET" .fontsize(30) , "<br>");
+document.write("MARK SHEET" .fontsize(30) + "<br>");
 var subject1 = prompt("Enter your marks in urdu subject");
 var subject2 = prompt("Enter your marks in english subject")
 var subject1 = prompt("Enter your marks in Math subject")
 var totalMarks =  +prompt("Enter total marks");
 var obtainedMarks = subject1+subject2+subject3;
-document.write("total marks :"+totalMarks, "<br>");
+document.write("total marks :"+totalMarks+ "<br>");
 document.write("obtained marks :"+ obtainedMarks, "<br>");
 var percentage = obtainedMarks / totalMarks * 100;
-document.write("percentage :"+ percentage, "<br>");
+document.write("percentage :"+ percentage+ "<br>");
 if (percentage >= 80){
-    document.write("Grade : A1" , "<br>");
-    document.write("Remarks: Excellent" , "<br>");
+    document.write("Grade : A1" + "<br>");
+    document.write("Remarks: Excellent" + "<br>");
 }
 else if (percentage >= 70){
-    document.write("Grade : A", "<br>");
-    document.write("Remarks: good" , "<br>");
+    document.write("Grade : A"+ "<br>");
+    document.write("Remarks: good" + "<br>");
 }
 else if (percentage >= 60){
-    document.write("Grade : B", "<br>");
-    document.write("Remarks: you need to improve" , "<br>");
+    document.write("Grade : B"+ "<br>");
+    document.write("Remarks: you need to improve" + "<br>");
 }
 else if (percentage < 60){
-    document.write("Grade : fail", "<br>");
-    document.write("Remarks: Sorry" , "<br>");
+    document.write("Grade : fail"+ "<br>");
+    document.write("Remarks: Sorry" + "<br>");
 }
 else {
     alert("you entered invalid number");
@@ -666,6 +668,7 @@ else{
 //<<<<<<<<<<•' IF , ELSE IF & ELSE STATEMENT , TESTING SETS OF CONDITION '•>>>>>>>>>>>
 
 //°°° Q # 1 °°°
+// ...
 //     <_____________________>
 
 
@@ -736,29 +739,45 @@ else{
 var greeting;
  var hour = 13; 
  if (hour < 18) { 
-     greeting = "Good day";
+    greeting = document.write("Good day");
  }
  else{
-    greeting = "Good evening";
+    greeting = document.write("Good evening");
  }   
 //     <_____________________>
 
 
-//°°° Q # 7 °°°
-// ......
+//°°° Q # 7 °°°     
+var InputTime;
+InputTime = prompt("Enter Time In 24 Hours Clock Format :");
+if (InputTime >= 0000 && InputTime <1200){
+    document.write("Good Morning");
+}
+else if (InputTime >= 1200 && InputTime< 1700){
+    document.write("Good Afternoon");
+}
+else if (InputTime >= 1700 && InputTime <2100){
+    document.write("Good Evening");
+}
+else if (InputTime >= 2100 && InputTime<=2359){
+    document.write("Good Night");
+}
 
-//_________________________________________________________________________________________________________________________
+//________________________________________________________________________________________________________________________
 
 
 
 //<<<<<<<<<<•'ARRAY '•>>>>>>>>>>>
 
-//°°° Q # 1 °°°
+//°°° Q # 1 °°°  
+var arr1 = []
+
 //     <_____________________>
- var arr1 = []
+
 
 //°°° Q # 2 °°°
-var arr2 = {};
+var arr2 = new Array(100);
+
 //     <_____________________>
 
 //°°° Q # 3 °°°
@@ -766,7 +785,7 @@ var array = ["Mango" , "Orange" , "Banana"];
 //     <_____________________>
 
 //°°° Q # 4 °°°
-var numArray = [8 , 3, 2];
+var numArray = [8 , 3, 2]
 //     <_____________________>
 
 //°°° Q # 5 °°°
@@ -778,7 +797,7 @@ var mixArray = ["mango" , 16 , true];
 //     <_____________________>
 
 //°°° Q # 7 °°°
-document.write("QUALIFICATION" , "<br>" .fontsize(30));
+document.write("QUALIFICATION" + "<br>" .fontsize(30));
 var qualification = ["SSC" , "HSC" , "BSC" , "BS " , "BCOM" , "MS" , "M.Phil " , "PhD"];
 document.write("1)" + qualification[0] , "<br>");
 document.write("2)" + qualification[1] , "<br>");
@@ -794,60 +813,131 @@ document.write("8)" + qualification[7] , "<br>");
 var names = ["Michael " , "John" , "Tony"];
 var marks = [320 , 230 , 480];
 total = 500;
-document.write("Score of " + names[0] + " is " + marks[0] + " . " + "Percentage: " + marks[0]/total*100 + "%" , "<br>");
-document.write("Score of " + names[1] + " is " + marks[1] + " . " + "Percentage: " + marks[1]/total*100 + "%" , "<br>");
-document.write("Score of " + names[2] + " is " + marks[2] + " . " + "Percentage: " + marks[2]/total*100 + "%" , "<br>");
+document.write("Score of " + names[0] + " is " + marks[0] + " . " + "Percentage: " + marks[0]/total*100 + "%" + "<br>");
+document.write("Score of " + names[1] + " is " + marks[1] + " . " + "Percentage: " + marks[1]/total*100 + "%" + "<br>");
+document.write("Score of " + names[2] + " is " + marks[2] + " . " + "Percentage: " + marks[2]/total*100 + "%" + "<br>");
 //     <_____________________>
 
 //°°° Q # 9 °°°
+
+var color =["red","black","blue"]
+document.write(color + "<br>")
+val = prompt("Enter Which Color you want to Added At beginning")   
+color.unshift(val)
+
+document.write(val + "<br>")
+
+val = prompt("Enter Which Color you want to Add At End")
+color.push(val + "<br>")
+
+document.write(val+"<br>Added New Color Now Array Updated :" +color + "<br>")
+
+val =prompt("Add More Two Color At beginning")
+val1 =prompt("Add More Two Color At beginning")
+color.unshift(val,val1 + "<br>")
+
+document.write("Added Two Color At Begining <br> Added Color Names : " +val+" "+val1+ "<br>+"+"Added New Colors Now Array Updated ": +color+"<br>")
+
+val = color.shift()
+document.write("Remove First Color From Array<br> Remove First Color From Array  : " +val+"<br>Delete First Color Now Array Updated :"+color+"<br>")
+
+val = color.pop()
+document.write("Remove Last Color From Array<br> Remove Last Color From Array  : " +val+"<br>Delete Last Color Now Array Updated : "+color+"<br>")
+
+val = prompt("Enter Index To Add new Color :")
+val1 = prompt("Enter How Many Color  Delete :")
+val2=prompt("Enter Value To Add New Color :")
+color.splice(val,val1,val2)
+document.write("<br><br>Add New Color Specific Position <br> Add New Color Index  : " +val+"<br> "+"How Many Color Delete : "+val1+"<br>Add New Color :"+val2 +"<br> Now Array Updated :"color)
+
+val = prompt("Enter Index To Start  Delete Color :")
+val1 = prompt("Enter Index To END  Delete Color :")
+color.splice(val,val1)
+document.write("<br><br>Add Remove Color Specific Position <br> Start Index  Delete Color : " +val+"<br> End Index  Delete Color: "+val1+"<br>  Now Array Updated : "+color)
+
+
+document.write("<br><br>NOW REMAINING ARRAY IS :"+ color)
+
+
 //     <_____________________>
 
 
 //°°° Q # 10 °°°
 var scores = [320 , 480 , 230 , 120];
-document.write("Scores of students : " + scores ,"<br>");
-document.write("ordered score :" + scores.sort());
+document.write("Scores of students : " .bold() + scores + "<br>");
+document.write("ordered score :" .bold() + scores.sort());
 //     <_____________________>
 
 
 //°°° Q # 11 °°°
 var city = ["Karachi", "Lahore" , "Islamabad" , "Quetta" , "Peshawar"];
-document.write("Cities list: ", "<br>");
-document.write(city , "<br>");
-var selectedCity = array.slice(2,4);
-document.write("Selected cities list: " , "<br>")
-document.write(selectedCity , "<br>");
+document.write("Cities list: " .bold()+ "<br>");
+document.write(city + "<br>");
+var selectedCity = city.slice(2,4);
+document.write("Selected cities list: " .bold()+ "<br>")
+document.write(selectedCity + "<br>");
 //     <_____________________>
 
 //°°° Q # 12 °°°
 var array = ["This" , "is" , "my", "cat"];
-document.write("Array:" ,"<br>"+array , "<br>")
-document.write("String:" ,"<br>")
-document.write(arr[0] + " " + array[1] + " " + array[2] + " " + array[3] , "<br>");
+document.write("Array:"  .bold() + "<br>");
+document.write(array + "<br>");
+document.write("String:" .bold() +"<br>");
+document.write(arr[0] + " " + array[1] + " " + array[2] + " " + array[3] + "<br>");
 //     <_____________________>
 
-//°°° Q # 13 °°°
-//...
+//°°° Q # 13 °°° 
+var arr=["Keyboard","mouse","printer","monitor"]
+
+document.write("Devices :<br>"+arr)
+
+val = arr.shift()
+document.write("First In First Out <br><br> OUT :<br>"+val+"<br>")
+
+val = arr.shift()
+document.write("OUT :<br>"+val+"<br>")
+
+val = arr.shift()
+document.write("OUT :<br>"+val+"<br>")
+
+val = arr.shift()
+document.write("<font size='7' color='#0714E9 ' style='font-weight:bold'> OUT :<br>"+val+"<br>")
 //     <_____________________>
 
 //°°° Q # 14 °°°
-//...
+var arr=["Keyboard","mouse","printer","monitor"]
+
+document.write("Devices :<br>"+arr)
+
+val = arr.pop()
+document.write("<br>First In First Out <br><br> OUT :<br>"+val+"<br>")
+
+val = arr.pop()
+document.write(" OUT :<br>"+val+"<br>")
+
+val = arr.pop()
+document.write(" OUT :<br>"+val+"<br>")
+
+val = arr.pop()
+document.write("OUT :<br>"+val+"<br>")
 //     <_____________________>
 
 //°°° Q # 15 °°°
-//...
-
+// .../
 //_________________________________________________________________________________________________________________________
 
 
 //<<<<<<<<<<•' ARRAYS AND LOOPS '•>>>>>>>>>>>
-//°°° Q # 1 °°°
+//°°° Q # 1 °°° 
 var multiArray = [
-    ["."],
-    ["."],
-    ["."],
-    ["."],
-    ["."],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+
 ]
 document.write(multiArray);
 //     <_____________________>
@@ -855,9 +945,9 @@ document.write(multiArray);
 
 //°°° Q # 2 °°°
 var multiarr2 = [
-    ["0" , " " , "1" ,  " " , "2" , " ", "3" ],
-    ["1" , " " , "0" , " " , "1" , " " , "2"],
-    ["2" , " " , "1" , " " , "0" , " " , "1"],
+    ["0" , " " , "1" ,  " " , "2" , " ", "3" + "<br>"],
+    ["1" , " " , "0" , " " , "1" , " " , "2" + "<br>"],
+    ["2" , " " , "1" , " " , "0" , " " , "1" + "<br>"],
 ]
 document.write(multiarr2);
 
@@ -873,8 +963,9 @@ for (var i = 1; i<=10; i++){
 
 
 //°°° Q # 4 °°°
-var tableInput = prompt("Enter any number")
-    for (var i = 1; i<=10; i++){
+var tableInput = prompt("Enter any number");
+var len = prompt("enter length");
+    for (var i = 1; i<=len; i++){
         document.write(tableInput + " x " + i + " = " + tableInput*i + "<br>");
     }
 
@@ -882,7 +973,7 @@ var tableInput = prompt("Enter any number")
 
 
 //°°° Q # 5 °°°
-var fruitNames = ["Apple " , " Banana " , " Mango " , " Orange " , " Strawberry "];
+var fruitNames = ["apple " , " banana " , " mango " , " orange " , " atrawberry "];
 for (var i = 0; i<fruitNames.length; i++){
     document.write(fruitNames[i] + "<br>");
 }
@@ -894,23 +985,49 @@ for (var i = 0; i<fruitNames.length; i++){
 
 //°°° Q # 6 °°°
 var counting = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+var even=[];
+var odd=[];
+var ser=[]
 document("counting" .fontsize(28) + "<br>");
 document.write(counting + "<br>");
 
 document("Reverse counting" .fontsize(28) + "<br>");
 document.write(counting.reverse()+ "<br>") ;
 
-document("Even" .fontsize(28) + "<br>");
-//ni horha
-document("Odd" .fontsize(28) + "<br>");
-// ni horha
-document("Series" .fontsize(28) + "<br>");
-//ni horha
+for(var i = 0;i<counting.length;i++){
+    if(counting[i]%2==0){
+       
+        even[i]=counting[i]
+    }
+}
+document("Even :" .fontsize(28) + Even  + "<br>");
+
+
+for(var i = 0;i<counting.length;i++){
+    if(counting[i]%2!=0){
+        odd[i]=counting[i]
+    }
+}
+document("Odd :" .fontsize(28) +odd + "<br>");
+for(var i = 0;i<counting.length;i=i+2){
+    ser[i]=counting[i]
+   
+}
+document("Series :" .fontsize(28)+ser + "<br>");
+
 //     <_____________________>
 
 
 //°°° Q # 7 °°°
-// ....
+A = ['cake', 'apple pie', 'cookie', 'chips', 'patties'] 
+var inp=prompt("Input")
+
+for (var j=0;j<A.length;j++){
+    if(inp==A[i])
+{
+    document.write(inp+"is Presen  In Bakery  :<br> At Index is : "+i)
+    break;
+}}
 //     <_____________________>
 
 
@@ -924,16 +1041,16 @@ document.write("The largest number is: " + Math.max(...val));
 //°°° Q # 9 °°°
 var val2 = [24, 53, 78, 91, 12];
 document.write("Array items: " + val2+ "<br>");
-document.write("The largest number is: " + Math.min(...val2));
+document.write("The smallest number is: " + Math.min(...val2));
 
 //     <_____________________>
 
 //°°° Q # 10 °°°
+a=5
+n=100
+for(i=1;i<=20;i++){
+    document.write( a*i+" , ");
+}
 
-//...
 
-
-
-
-//==========================================================================================================================================================
-
+//====================================================================================================================
